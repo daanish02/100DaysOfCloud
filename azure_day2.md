@@ -37,7 +37,7 @@ Create an Azure Virtual Machine and connect to it securely using SSH.
 6. Skip the remaining optional configuration tabs.
 7. Click **Review + Create**, then click **Create**.
 8. Once deployment is complete, note the **Username** and **Public IP address** of the VM.
-9. Connect to the VM using SSH:
+9. Connect to the VM using SSH:  
    ```bash
    ssh -i <ssh-key-path> <username>@<public_ip>
    ```
