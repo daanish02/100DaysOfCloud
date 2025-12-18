@@ -18,8 +18,7 @@ Create an Azure Virtual Machine using the Azure CLI with predefined compute, sto
 1. Open a terminal with Azure CLI installed and authenticated.
 2. List all available resource groups:
    ```bash
-   az group list -o table
-   # Displays all resource groups in the subscription in a readable table format
+   az group list -o table  # Displays all resource groups in the subscription in a readable table format
    ```
 3. Copy the required resource group name.
 4. Create the virtual machine using the following command:
